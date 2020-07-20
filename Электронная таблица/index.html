@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Электронная таблица</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <table id="table"></table>
+        <div class="buttonRight">
+            <button onclick="itemsTable.AddColumn()">+</button><br>
+            <button onclick="itemsTable.DeleteColumn()">-</button>
+        </div>
+        <div class="buttonBottom">
+            <button onclick="itemsTable.AddRow()">+</button>
+            <button onclick="itemsTable.DeleteRow()">-</button>
+        </div>   
+    </div>
+
+
+    <script src="TableClasses.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

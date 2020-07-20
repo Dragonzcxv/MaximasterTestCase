@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=586094b2-8565-4a1d-8c8a-665af9452320&lang=ru_RU" type="text/javascript">
+    </script>
+</head>
+<body>
+    <form class="order">
+        <input id="name" placeholder="ФИО" type="text">
+        <input id="phone" placeholder="Телефон" type="text">
+        <input id="email" placeholder="Email" type="text">
+
+        <div id="map" onclick="DisplayPoint()"></div>
+        <textarea  placeholder="Комментарий к заказу (макс. 500 символов)" maxlength="500" form="text"></textarea>
+
+        <button type="button" onclick="CheckValidation()">Отправить</button>
+        <ul id="errorList"></ul>
+
+    </form>
+    
+
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

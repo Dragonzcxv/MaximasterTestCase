@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    align-self: stretch;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.table-header{
+    background-color: lightgray;
+}
+
+tr{
+    border: 1px solid black;
+    height: 40px;
+}
+
+.table-filter{
+    align-self: stretch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}

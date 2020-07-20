@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица товаров</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="table-filter">
+            <span>Цена от: </span>
+            <input id="minFilter" placeholder="0" value="0" type="number">
+            <span> до: </span>
+            <input id="maxFilter" placeholder="10000" value="0" type="number">
+            <input type="button" onclick="FilterTable()" value="Обновить"> 
+
+        </div>
+        <table id="table">
+            <tr class="table-header">
+                <td>ID</td><td>Название</td><td>Количество</td><td>Цена за единицу</td><td>Сумма</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

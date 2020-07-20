@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Случайный цвет</title>
+    <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="task">
+            <div class="inputs">
+                <label>Ширина:</label>
+                <input type="number" oninput="ChangeBlock()" placeholder="100"><br>
+                <label>Высота:</label>
+                <input type="number" oninput="ChangeBlock()" placeholder="100">
+                <button type="button" onclick="GetRandomColor()">Случайный цвет</button>
+                <hr>
+            </div>
+    
+            <script src="script.js"></script>
+    
+            <div id="СhangingBlock"></div>
+        </div>
+    </body>
+    
+    </html>

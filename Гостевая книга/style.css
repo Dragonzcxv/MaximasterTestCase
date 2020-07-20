@@ -1,0 +1,62 @@
+#formMain {
+    width:450px;
+    height: 50px;
+    border: 1px solid #dbdbdd;
+}
+
+
+#guestsBook {
+    width: 450px;
+    height: 450px;
+    border: 1px solid #dbdbdd;
+    background: #ffffff;
+    overflow-y: auto;
+    
+}
+
+.messageInChat {
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 5px;
+    max-width: 500px;
+    border: 1px solid black;
+    left: 10px;
+    width: 80%;
+    float: left;
+    position: relative;
+}
+
+#messageText{
+    word-wrap: break-word;
+}
+
+#name{
+    position: absolute;
+    top:0;
+    right:10px;
+    top:3px;
+}
+
+
+form{
+    width: 450px;
+    position: relative;
+}
+
+#inputName{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 450px;
+    height: 100px;
+    resize: none;
+}
+
+#formsButton{
+    position: absolute;
+    width: 100px;
+    margin-top: 20px;
+    left: 35%;
+}

@@ -1,0 +1,21 @@
+.container{
+    position: relative;
+    width:200px;
+    text-align: center;
+}
+#cities{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#weight{
+   width: 100%;
+   box-sizing: border-box;
+   margin-bottom: 10px;
+}
+
+#button{
+    width: 80px;
+}
+
